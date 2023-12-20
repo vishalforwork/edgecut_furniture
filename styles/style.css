@@ -230,7 +230,7 @@ nav .right img{
 }
 .test-right .lorem{
     margin: -10px 20px 10px 20px;
-
+    
 }
 .test-title{
     font-size: 2rem;   
@@ -243,4 +243,177 @@ nav .right img{
 }
 .arrows img{
     width: 3em;
+}
+/* -- ---------------------------------------------CONTACT------------------------------------------- -- */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff8ff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+.contact-left{
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 3rem 2rem -15rem;
+}
+.contact-left p{
+    font-size: 28px;
+    margin: 0.5rem;
+}
+#fname{
+    width: 30rem;
+    border: none;
+    padding: 0.75rem;
+    margin: 0.75rem;
+}
+#phone{
+    width: 30rem;
+    border: none;
+    padding: 0.75rem;
+    margin: 0.75rem;
+}
+#email{
+    width: 30rem;
+    border: none;
+    padding: 0.75rem;
+    margin: 0.75rem;
+}
+#message{
+    width: 30rem;
+    border: none;
+    margin: 0.75rem;
+}
+.contact-left button{
+    background-color: #86cff9;
+    color: #fff;
+    border: none;
+    width: 140px;    
+    padding: 0.5rem;
+    margin: 1rem 0.5rem 0.5rem 1rem;
+}
+.contact-right{
+    width: 60vh;
+    margin: 1rem 2rem 0.5rem 10rem;
+}
+.contact-right iframe{
+    margin: 2rem 3rem 0.5rem 3.5rem;
+}
+/* -- ---------------------------------------------FOOTER------------------------------------------- -- */
+.footer{
+    background-color: #000;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 53vh;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-call, .footer-mail, .footer-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+} 
+.footer-call img, .footer-mail img, .footer-location img{
+    margin: 0.5rem;
+    width: 1rem;
+} 
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0rem 0rem 0rem;
+}
+.footer-bottom-left{
+    width: 33vw;
+    margin: 1rem 2rem 1rem 4.5rem;
+}
+.footer-bottom-left .bold{
+    font-weight: 700;
+    margin-left: 4rem;
+}
+.footer-bottom-left ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+}
+.footer-bottom-left ul li{
+    list-style-type: none;
+    width: 4rem;
+    margin: 0rem 2rem;
+}
+.footer-bottom-left ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.footer-bottom-center{
+    width: 33vw;
+    margin-left: -12rem;
+}
+.footer-bottom-center .bold{
+    font-weight: 700;
+    margin: 0rem 0rem 1rem 9rem;
+}
+.footer-bottom-center ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem 9rem;
+}
+.img-bg{
+    display: flex;
+    align-items: center;
+    height: 2rem;    
+    margin: 0.2rem;
+    background-color: #fff;
+}
+.img-bg img{
+    width: 2rem;
+}
+
+.footer-bottom-right{
+    width: 33vw;
+    margin-top: 2rem;
+}
+.footer-bottom-right .bold{
+    font-weight: 700;
+}
+.footer-bottom-right form input{
+    width: 20rem;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+}
+.footer-bottom-right form button{
+    background-color: #86cff9;
+    color: #fff;
+    border: none;
+    width: 140px;    
+    padding: 0.5rem;
+    margin: 0rem 0.5rem 0.5rem 0rem;
+}
+.footer-right-logo img{
+    width: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #86cff9;
+    border-radius: 2px;
+}
+/* -- ---------------------------------------------COPYRIGHT------------------------------------------- -- */
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
